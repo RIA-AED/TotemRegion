@@ -1,0 +1,10 @@
+name: TotemRegion
+version: '${project.version}'
+main: ink.magma.totemregion.TotemRegion
+api-version: 1.18
+commands:
+  totemregion:
+    usage: /totemregion <参数>    (显示此信息大概是因为您的参数有误)
+permissions:
+  totemregion.admin:
+    default: op
